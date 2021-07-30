@@ -1,0 +1,48 @@
+.text {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: #F2E5D7;
+  margin-top: 125px;
+}
+
+#intro {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 2.5em;
+}
+
+#pitch {
+  font-family: 'Montserrat-Light';
+  font-size: 1.35em;
+}
+
+.nav {
+  width: 20%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 200px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.connect {
+  margin-bottom: 35%;
+}
+
+.icon:nth-child(1) {
+  margin: 0;
+}
+
+.icon {
+  margin: 0 0 0 15px;
+}

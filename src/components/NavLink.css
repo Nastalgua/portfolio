@@ -1,0 +1,40 @@
+.nav-link {
+  display: block;
+
+  font-family: 'Montserrat-Regular';
+  font-size: 0.9em;
+  color: #F2E5D7;
+
+  opacity: 60%;
+
+  margin: 15px 0;
+
+  transition-property: opacity;
+  transition: all 0.2s ease-in-out;
+}
+
+.active {
+  opacity: 100%;
+}
+
+.link {
+  color: #F2E5D7;
+  text-decoration: none;
+}
+
+.line {
+  display: inline-block;
+  width: 21px;
+  height: 1px;
+
+  margin: 0 10px 5px;
+
+  background-color: #F2E5D7;
+
+  transition-property: width;
+  transition: all 0.2s ease-in-out;
+}
+
+.line-active {
+  width: 42px;
+}
