@@ -3,14 +3,17 @@ import PropTypes from 'prop-types';
 
 import './NavLink.css';
 
-export const NavLink = ({ index, name, active }) => {
+import { Link } from 'react-scroll';
+
+const navNames = ['about-me', 'projects', 'fun', 'resume'];
+
+export const NavLink = ({ index, name, active, updateActive }) => {
   const [hovering, setHovering] = useState(false);
 
   const onClick = (event) => {
     event.preventDefault();
 
-    // change nav
-    console.log(event);
+    updateActive(name);
   }
 
   const getIndex = () => {
@@ -32,7 +35,20 @@ export const NavLink = ({ index, name, active }) => {
 
   return (
     <li className={`nav-link ${allowActive() ? 'active' : ''}`}>
-      <a href='about-me' className='link'
+      <Link
+        to={`${navNames[index]}`}
+        spy={true}
+        smooth={true}
+        duration={500}
+        delay={100}
+        offset={-50}
+
+        onSetActive={() => {
+          updateActive(name);
+        }}
+
+        className='link'
+
         onMouseEnter={() => setHovering(true)}
         onMouseLeave={() => setHovering(false)}
         onClick={(event) => onClick(event)}
@@ -40,7 +56,7 @@ export const NavLink = ({ index, name, active }) => {
         <span id='index'>{getIndex()}</span>
         <div className={`line ${allowActive() ? 'line-active' : ''}`}></div>
         <span>{name}</span>
-      </a>
+      </Link>
     </li >
   )
 }

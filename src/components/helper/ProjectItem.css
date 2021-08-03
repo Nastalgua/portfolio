@@ -1,0 +1,36 @@
+.project-item {
+  background-color: #353535;
+  padding: 30px 25px;
+  margin: 15px 0;
+
+  color: #F2E5D7;
+
+  transition-property: opacity;
+  transition: all 0.2s ease-in-out;
+
+  cursor: pointer;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
+
+.project-name {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 29px;
+
+  margin: 8px 0;
+}
+
+.project-language {
+  font-family: 'Montserrat-Regular';
+  letter-spacing: 0.5rem;
+}
+
+.project-description {
+  font-family: 'Montserrat-Light';
+}
+
+.project-item:nth-child(1) {
+  margin: 0;
+}

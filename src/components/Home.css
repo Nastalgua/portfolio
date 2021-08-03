@@ -1,3 +1,11 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  padding: 0 21%;
+}
+
 .text {
   margin: 0;
   padding: 0;
@@ -26,7 +34,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  margin-left: 200px;
+  flex: 2;
 }
 
 .nav-links {
@@ -36,7 +44,7 @@
 }
 
 .connect {
-  margin-bottom: 35%;
+  margin-top: 30%;
 }
 
 .icon:nth-child(1) {
@@ -45,4 +53,15 @@
 
 .icon {
   margin: 0 0 0 15px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  margin-top: 125px;
+  flex: 4;
 }

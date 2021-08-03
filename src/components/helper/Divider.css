@@ -1,0 +1,10 @@
+.divider {
+  margin: 75px 0;
+  opacity: 20%;
+
+  height: 2px;
+  background-color: #515151;
+  border: none;
+}
+
+
