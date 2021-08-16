@@ -12,11 +12,13 @@ import GitHubIcon from '../assets/icons/github.svg';
 import LinkedInIcon from '../assets/icons/linked-in.svg';
 
 import './Home.css';
+import { Research } from './content/Research';
 
 export const Home = () => {
   const [navLinks, setNavLinks] = useState([
     { name: 'About Me', active: true },
     { name: 'Projects', active: false },
+    { name: 'Research', active: false },
     { name: 'Fun', active: false },
     { name: 'Resume', active: false },
   ]);
@@ -69,8 +71,10 @@ export const Home = () => {
         <Divider index={1} />
         <Projects />
         <Divider index={2} />
-        <Fun />
+        <Research />
         <Divider index={3} />
+        <Fun />
+        <Divider index={4} />
         <Resume />
         <div style={{ marginBottom: 50 }}></div>
       </div>

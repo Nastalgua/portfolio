@@ -6,40 +6,19 @@ import { ProjectItem } from '../helper/ProjectItem';
 
 import './Projects.css';
 
-export const Projects = () => {
+export const Research = () => {
   const DEFAULT_OPACITY = 1;
   const UNFOCUSED_OPACITY = 0.2;
 
   const [projects, setProjects] = useState(
     [
       {
-        name: 'Project',
-        language: 'Typescript',
-        description: 'Create and join events in one’s local community.',
+        name: 'HVAC',
+        language: 'Python',
+        description: 'CSIRE 2021. A reinforcement learning approach to improving HVAC systems.',
         opacity: DEFAULT_OPACITY,
-        link: 'https://github.com/Nastalgua/Project'
-      },
-      {
-        name: 'Discern',
-        language: 'Dart',
-        description: 'Quickly identify and learn how to dispose of harmful household items.',
-        opacity: DEFAULT_OPACITY,
-        link: 'https://github.com/Nastalgua/discern'
-      },
-      {
-        name: 'Intervent',
-        language: 'Dart',
-        description: 'Vent out one’s issues with anonymous chat messaging.',
-        opacity: DEFAULT_OPACITY,
-        link: 'https://github.com/Nastalgua/intervent'
-      },
-      {
-        name: 'StorageDepth',
-        language: 'Java',
-        description: 'Add more depth to storage blocks in Minecraft.',
-        opacity: DEFAULT_OPACITY,
-        link: 'https://github.com/Nastalgua/StorageDepth'
-      },
+        link: 'https://github.com/Nastalgua/hvac'
+      }
     ]
   );
 
@@ -74,7 +53,7 @@ export const Projects = () => {
   }
 
   return (
-    <Element name='projects' className='projects'>
+    <Element name='research' className='projects'>
       {
         projects.map(
           (project, index) =>

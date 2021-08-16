@@ -1,48 +1,77 @@
+import SnowForest from '../../assets/images/snow_forest.png';
+
+import Turtle from '../../assets/images/turtle.JPG';
+import NYC from '../../assets/images/nyc.JPG';
+import Goats from '../../assets/images/goats.JPG';
+import Birds from '../../assets/images/birds.JPG';
+import Flowers from '../../assets/images/flowers.JPG';
+import Otters from '../../assets/images/otters.JPG';
+import SpiralStairs from '../../assets/images/spiral_stairs.JPG';
+
+import Lobster from '../../assets/images/lobster.JPG';
+import Sushi from '../../assets/images/sushi.JPG';
+
 export const photos = [
   {
-    title: 'Image',
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-    width: 1,
-    height: 1
-  },
-  {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+    title: 'Ice Fishing',
+    src: SnowForest,
     width: 4,
     height: 3
   },
   {
     src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+    width: 1,
+    height: 1
+  },
+  {
+    title: 'Pair of birds',
+    src: Birds,
     width: 3,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3
+    title: 'Hey! Look at these two!',
+    src: Otters,
+    width: 3,
+    height: 4
   },
   {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+    title: 'Interesting plant organization.',
+    src: SpiralStairs,
+    width: 3,
+    height: 4
+  },
+  {
+    title: 'These smell nice.',
+    src: Flowers,
+    width: 3,
+    height: 4
+  },
+  {
+    title: 'Ain\'t he special.',
+    src: Turtle,
+    width: 3,
+    height: 4
+  },
+  {
+    title: 'From 8th grade senior cruise.',
+    src: NYC,
     width: 4,
+    height: 5
+  },
+  {
+    src: Goats,
+    width: 3,
+    height: 4
+  },
+  {
+    src: Lobster,
+    width: 3,
+    height: 4
+  },
+  {
+    src: Sushi,
+    width: 3,
     height: 3
-  }
+  },
 ];

@@ -3,7 +3,7 @@
   flex-direction: row;
 
   padding: 0 20px;
-  /* margin-bottom: 20px; */
+  margin-bottom: 30px;
 }
 
 .bio-text {
@@ -16,6 +16,10 @@
 
 .self-image {
   flex: 1;
+  object-fit: cover;
+  width: 45%;
+  margin: 0 10px;
+  cursor: pointer;
 }
 
 .bio-link {

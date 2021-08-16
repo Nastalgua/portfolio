@@ -5,7 +5,7 @@ import './NavLink.css';
 
 import { Link } from 'react-scroll';
 
-const navNames = ['about-me', 'projects', 'fun', 'resume'];
+const navNames = ['about-me', 'projects', 'research', 'fun', 'resume'];
 
 export const NavLink = ({ index, name, active, updateActive }) => {
   const [hovering, setHovering] = useState(false);

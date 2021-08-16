@@ -1,8 +1,13 @@
-import { Element } from 'react-scroll';
+import { useState, useCallback } from 'react';
 
-import SelfImage from '../../assets/images/self.png';
+import { Element } from 'react-scroll';
+import Carousel, { Modal, ModalGateway } from "react-images";
+
+import SelfImage from '../../assets/images/self.JPG';
 
 import './AboutMe.css'
+
+const images = [{ width: 3, height: 4, src: SelfImage }]
 
 const LinkText = ({ link, text }) => {
   return (
@@ -11,8 +16,17 @@ const LinkText = ({ link, text }) => {
 }
 
 export const AboutMe = () => {
-  return (
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
+  const openLightbox = useCallback((event) => {
+    setViewerIsOpen(true);
+  }, []);
+
+  const closeLightbox = () => {
+    setViewerIsOpen(false);
+  };
+
+  return (
     <Element name='about-me' className='about-me'>
       <p className='bio-text'>
         {'Hey there! I’m a student at the '}
@@ -33,7 +47,20 @@ export const AboutMe = () => {
         <br />
         {'Check out all of these things on my website!'}
       </p>
-      <img className='self-image' src={SelfImage} alt='self' />
+      <img className='self-image' src={SelfImage} alt='self' onClick={openLightbox} />
+      <ModalGateway>
+        {viewerIsOpen ? (
+          <Modal onClose={closeLightbox}>
+            <Carousel
+              currentIndex={0}
+              views={images.map(x => ({
+                ...x,
+                srcset: x.src
+              }))}
+            />
+          </Modal>
+        ) : null}
+      </ModalGateway>
     </Element>
   )
 }
