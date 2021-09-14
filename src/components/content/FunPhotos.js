@@ -1,4 +1,6 @@
 import SnowForest from '../../assets/images/snow_forest.png';
+import FishMarket from '../../assets/images/fish_market.png';
+import JapaneseStore from '../../assets/images/japanese-store.png';
 
 import Turtle from '../../assets/images/turtle.JPG';
 import NYC from '../../assets/images/nyc.JPG';
@@ -17,6 +19,18 @@ export const photos = [
     src: SnowForest,
     width: 4,
     height: 3
+  },
+  {
+    title: 'Fish Market',
+    src: FishMarket,
+    width: 4,
+    height: 3.5
+  },
+  {
+    title: 'Japanese Store',
+    src: JapaneseStore,
+    width: 4,
+    height: 3.5
   },
   {
     src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
