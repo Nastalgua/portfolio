@@ -34,7 +34,7 @@ export const NavLink = ({ index, name, active, updateActive }) => {
   }
 
   return (
-    <li className={`nav-link ${allowActive() ? 'active' : ''}`}>
+    <li className={`nav-link ${allowActive() ? 'link-active' : ''}`}>
       <Link
         to={`${navNames[index]}`}
         spy={true}

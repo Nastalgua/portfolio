@@ -17,7 +17,6 @@ export const Resume = () => {
       <Document
         file={resumePDF}
         onLoadError={console.error}
-        o
       >
         <Page pageNumber={pageNumber} />
       </Document>

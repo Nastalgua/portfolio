@@ -67,7 +67,7 @@ export const Home = () => {
         </div>
       </div>
       <div className='content'>
-        <AboutMe />
+        <AboutMe updateActive={updateActive} />
         <Divider index={1} />
         <Projects />
         <Divider index={2} />

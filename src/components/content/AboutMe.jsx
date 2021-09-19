@@ -15,7 +15,7 @@ const LinkText = ({ link, text }) => {
   );
 }
 
-export const AboutMe = () => {
+export const AboutMe = ({ updateActive }) => {
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
   const openLightbox = useCallback((event) => {
@@ -31,17 +31,17 @@ export const AboutMe = () => {
       <p className='bio-text'>
         {'Hey there! I’m a student at the '}
         <LinkText link='https://www.bxscience.edu/' text='Bronx High School of Science' />
-        {' in New York City. I’m a software engineer, creating different types of applications for different purposes. \n'}
+        {' in New York City. I enjoy writing code and creating different types of applications for various purposes. \n'}
         <br />
         <br />
         {'In my free time, I love '}
-        <LinkText link='https://www.bxscience.edu/' text='developing applications' />
+        <LinkText text='developing applications' />
         {', '}
-        <LinkText link='https://www.bxscience.edu/' text='modding games' />
+        <LinkText text='modding games' />
         {', '}
-        <LinkText link='https://www.bxscience.edu/' text='creating voxel art' />
+        <LinkText text='creating voxel art' />
         {', and '}
-        <LinkText link='https://www.bxscience.edu/' text='taking photos' />
+        <LinkText text='taking photos' />
         {'.'}
         <br />
         <br />
