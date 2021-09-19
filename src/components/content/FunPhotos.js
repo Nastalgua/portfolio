@@ -33,11 +33,6 @@ export const photos = [
     height: 3.5
   },
   {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 1,
-    height: 1
-  },
-  {
     title: 'Pair of birds',
     src: Birds,
     width: 3,
