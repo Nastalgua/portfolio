@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-evenly;
 
-  padding: 0 21%;
+  padding: 0 15%;
 }
 
 .text {
@@ -37,6 +37,11 @@
   flex: 2;
 }
 
+.sub-nav {
+  position: fixed;
+  width: 18%;
+}
+
 .nav-links {
   display: flex;
   flex-direction: column;
@@ -64,4 +69,44 @@
 .content {
   margin-top: 125px;
   flex: 4;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .sub-nav {
+    position: relative;
+    width: 100%;
+  }
+  
+  .connect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+  }
 }

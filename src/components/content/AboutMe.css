@@ -27,3 +27,13 @@
   text-decoration: underline;
 } 
 
+@media only screen and (max-width: 900px) {
+  .about-me {
+    flex-direction: column-reverse;
+    margin-bottom: 12px;
+  }
+
+  .self-image {
+    margin: 0 auto;
+  }
+}

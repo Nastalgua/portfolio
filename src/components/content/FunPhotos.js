@@ -2,6 +2,7 @@ import SnowForest from '../../assets/images/snow_forest.png';
 import FishMarket from '../../assets/images/fish_market.png';
 import JapaneseStore from '../../assets/images/japanese-store.png';
 import Breakfast from '../../assets/images/breakfast.png';
+import Pancakes from '../../assets/images/pancake.png';
 
 import Turtle from '../../assets/images/turtle.JPG';
 import NYC from '../../assets/images/nyc.JPG';
@@ -36,8 +37,14 @@ export const photos = [
   {
     title: 'Mhhhhhhh...',
     src: Breakfast,
-    width: 4,
+    width: 4.5,
     height: 4
+  },
+  {
+    title: 'Pancakes',
+    src: Pancakes,
+    width: 4,
+    height: 3
   },
   {
     title: 'Pair of birds',

@@ -40,7 +40,7 @@ export const Home = () => {
   return (
     <div className='home'>
       <div className='nav'>
-        <div style={{ position: 'fixed', width: '20%' }}>
+        <div className='sub-nav'>
           <div className='header'>
             <h2 id='intro' className='text'>Hello, I'm Matthew Chen.</h2>
             <p id='pitch' className='text'>Programmer, Student, Artist.</p>
