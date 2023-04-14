@@ -26,6 +26,14 @@
   font-size: 1.35em;
 }
 
+.built-by {
+  font-family: 'Montserrat-Light';
+  font-size: 1em;
+  color: #F2E5D7;
+  text-decoration: none;
+  border-bottom: 1px solid #F2E5D7
+}
+
 .nav {
   width: 20%;
   height: 100vh;

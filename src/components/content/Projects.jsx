@@ -14,29 +14,36 @@ export const Projects = () => {
     [
       {
         name: 'Project',
-        language: 'Typescript',
+        language: 'Vue',
         description: 'Create and join events in one’s local community.',
         opacity: DEFAULT_OPACITY,
-        link: 'https://github.com/Nastalgua/Project'
+        link: 'https://devpost.com/software/project-a9rz5m'
+      },
+      {
+        name: 'CAAAC Website',
+        language: 'Vue',
+        description: 'Prototype website for the Chinese American Association for Autistic Community.',
+        opacity: DEFAULT_OPACITY,
+        link: 'https://resonant-zuccutto-ec89fe.netlify.app/#/about'
       },
       {
         name: 'Discern',
         language: 'Dart',
         description: 'Quickly identify and learn how to dispose of harmful household items.',
         opacity: DEFAULT_OPACITY,
-        link: 'https://github.com/Nastalgua/discern'
+        link: 'https://devpost.com/software/discern'
       },
       {
         name: 'Intervent',
         language: 'Dart',
         description: 'Vent out one’s issues with anonymous chat messaging.',
         opacity: DEFAULT_OPACITY,
-        link: 'https://github.com/Nastalgua/intervent'
+        link: 'https://devpost.com/software/intervent'
       },
       {
         name: 'StorageDepth',
         language: 'Java',
-        description: 'Add more depth to storage blocks in Minecraft.',
+        description: 'Plugin that adds more depth to storage blocks in Minecraft.',
         opacity: DEFAULT_OPACITY,
         link: 'https://github.com/Nastalgua/StorageDepth'
       },

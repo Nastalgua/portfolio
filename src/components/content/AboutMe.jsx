@@ -3,7 +3,7 @@ import { useState, useCallback } from 'react';
 import { Element } from 'react-scroll';
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-import SelfImage from '../../assets/images/self.JPG';
+import SelfImage from '../../assets/images/self.png';
 
 import './AboutMe.css'
 
@@ -30,8 +30,8 @@ export const AboutMe = ({ updateActive }) => {
     <Element name='about-me' className='about-me'>
       <p className='bio-text'>
         {'Hey there! I’m a student at the '}
-        <LinkText link='https://www.bxscience.edu/' text='Bronx High School of Science' />
-        {' in New York City. I enjoy writing code and creating different types of applications for various purposes. \n'}
+        <LinkText link='https://www.cornell.edu/' text='Cornell University' />
+        {' Ithaca, NY. I enjoy writing code, solving problems, and creating different types of applications for various purposes. \n'}
         <br />
         <br />
         {'In my free time, I love '}

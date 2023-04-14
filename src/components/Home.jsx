@@ -5,7 +5,6 @@ import { AboutMe } from './content/AboutMe';
 import { Divider } from './helper/Divider';
 
 import { Projects } from './content/Projects';
-import { Resume } from './content/Resume';
 import { Fun } from './content/Fun';
 
 import GitHubIcon from '../assets/icons/github.svg';
@@ -19,8 +18,7 @@ export const Home = () => {
     { name: 'About Me', active: true },
     { name: 'Projects', active: false },
     { name: 'Research', active: false },
-    { name: 'Fun', active: false },
-    { name: 'Resume', active: false },
+    { name: 'Fun', active: false }
   ]);
 
   const openLink = (link) => {
@@ -64,6 +62,7 @@ export const Home = () => {
             <img className='icon' onClick={() => openLink('https://github.com/Nastalgua')} src={GitHubIcon} alt='github' />
             <img className='icon' onClick={() => openLink('https://www.linkedin.com/in/matthew-chen-b7221b1a8/')} src={LinkedInIcon} alt='linked-in' />
           </div>
+          <a className='text built-by' href='https://github.com/Nastalgua/portfolio'>Built with ❤️.</a>
         </div>
       </div>
       <div className='content'>
@@ -74,8 +73,8 @@ export const Home = () => {
         <Research />
         <Divider index={3} />
         <Fun />
-        <Divider index={4} />
-        <Resume />
+        {/* <Divider index={4} />
+        <Resume /> */}
         <div style={{ marginBottom: 50 }}></div>
       </div>
     </div>
