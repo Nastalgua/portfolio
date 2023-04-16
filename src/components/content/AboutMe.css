@@ -16,7 +16,8 @@
 
 .self-image {
   flex: 1;
-  object-fit: cover;
+  object-fit: scale-down;
+
   width: 45%;
   margin: 0 10px;
   cursor: pointer;
@@ -35,5 +36,6 @@
 
   .self-image {
     margin: 0 auto;
+    width: 80%;
   }
 }

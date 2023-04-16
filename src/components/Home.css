@@ -31,7 +31,15 @@
   font-size: 1em;
   color: #F2E5D7;
   text-decoration: none;
-  border-bottom: 1px solid #F2E5D7
+  border-bottom: 1px solid #F2E5D7;
+  padding-top: 2em;
+  width: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav {
@@ -116,5 +124,9 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 10%;
+  }
+
+  .built-by {
+    margin: 0 auto;
   }
 }

@@ -58,11 +58,13 @@ export const Home = () => {
               }
             </nav>
           </div>
-          <div className='connect'>
-            <img className='icon' onClick={() => openLink('https://github.com/Nastalgua')} src={GitHubIcon} alt='github' />
-            <img className='icon' onClick={() => openLink('https://www.linkedin.com/in/matthew-chen-b7221b1a8/')} src={LinkedInIcon} alt='linked-in' />
+          <div className='container'>
+            <div className='connect'>
+              <img className='icon' onClick={() => openLink('https://github.com/Nastalgua')} src={GitHubIcon} alt='github' />
+              <img className='icon' onClick={() => openLink('https://www.linkedin.com/in/matthew-chen-b7221b1a8/')} src={LinkedInIcon} alt='linked-in' />
+            </div>
+            <a className='text built-by' href='https://github.com/Nastalgua/portfolio'>Built with ❤️.</a>
           </div>
-          <a className='text built-by' href='https://github.com/Nastalgua/portfolio'>Built with ❤️.</a>
         </div>
       </div>
       <div className='content'>
