@@ -13,6 +13,13 @@ export const Projects = () => {
   const [projects, setProjects] = useState(
     [
       {
+        name: 'Genus',
+        language: 'React',
+        description: 'Compete against friends in brain games! Communicate with them with in-game chat.',
+        opacity: DEFAULT_OPACITY,
+        link: 'https://genus-cxe0.onrender.com/'
+      },
+      {
         name: 'Project',
         language: 'Vue',
         description: 'Create and join events in one’s local community.',
@@ -27,18 +34,25 @@ export const Projects = () => {
         link: 'https://resonant-zuccutto-ec89fe.netlify.app/#/about'
       },
       {
+        name: 'Eco-City',
+        language: 'C#',
+        description: 'A game about managing energy sources with care.',
+        opacity: DEFAULT_OPACITY,
+        link: 'https://nastalgia.itch.io/eco-city'
+      },
+      {
+        name: 'Basketball AI',
+        language: 'C#',
+        description: 'Training a machine learning agent to shoot hoops.',
+        opacity: DEFAULT_OPACITY,
+        link: 'https://darmingeek.itch.io/basketball-ml'
+      },
+      {
         name: 'Discern',
         language: 'Dart',
         description: 'Quickly identify and learn how to dispose of harmful household items.',
         opacity: DEFAULT_OPACITY,
         link: 'https://devpost.com/software/discern'
-      },
-      {
-        name: 'Intervent',
-        language: 'Dart',
-        description: 'Vent out one’s issues with anonymous chat messaging.',
-        opacity: DEFAULT_OPACITY,
-        link: 'https://devpost.com/software/intervent'
       },
       {
         name: 'StorageDepth',
