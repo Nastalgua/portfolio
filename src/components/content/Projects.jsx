@@ -15,7 +15,7 @@ export const Projects = () => {
       {
         name: 'Genus',
         language: 'React',
-        description: 'Compete against friends in brain games! Communicate with them with in-game chat.',
+        description: 'Compete against friends in brain games!',
         opacity: DEFAULT_OPACITY,
         link: 'https://genus-cxe0.onrender.com/'
       },
