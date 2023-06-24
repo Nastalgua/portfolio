@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bcb02473.chunk.css",
+    "main.js": "/portfolio/static/js/main.e59f1b18.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e59f1b18.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d6f9d425.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d6f9d425.js.map",
+    "static/js/2.443a2c6f.chunk.js": "/portfolio/static/js/2.443a2c6f.chunk.js",
+    "static/js/2.443a2c6f.chunk.js.map": "/portfolio/static/js/2.443a2c6f.chunk.js.map",
+    "static/js/3.59b4bdbe.chunk.js": "/portfolio/static/js/3.59b4bdbe.chunk.js",
+    "static/js/3.59b4bdbe.chunk.js.map": "/portfolio/static/js/3.59b4bdbe.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.bcb02473.chunk.css.map": "/portfolio/static/css/main.bcb02473.chunk.css.map",
+    "static/js/2.443a2c6f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.443a2c6f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/birds.099739a6.JPG": "/portfolio/static/media/birds.099739a6.JPG",
+    "static/media/breakfast.80194a4f.png": "/portfolio/static/media/breakfast.80194a4f.png",
+    "static/media/fish_market.57e053c0.png": "/portfolio/static/media/fish_market.57e053c0.png",
+    "static/media/flowers.f2cc67f3.JPG": "/portfolio/static/media/flowers.f2cc67f3.JPG",
+    "static/media/github.a6dd7f44.svg": "/portfolio/static/media/github.a6dd7f44.svg",
+    "static/media/goats.c660a963.JPG": "/portfolio/static/media/goats.c660a963.JPG",
+    "static/media/japanese-store.bc6b62a1.png": "/portfolio/static/media/japanese-store.bc6b62a1.png",
+    "static/media/linked-in.f5925eb2.svg": "/portfolio/static/media/linked-in.f5925eb2.svg",
+    "static/media/lobster.9c9b038f.JPG": "/portfolio/static/media/lobster.9c9b038f.JPG",
+    "static/media/nyc.53228a09.JPG": "/portfolio/static/media/nyc.53228a09.JPG",
+    "static/media/otters.4549cb5b.JPG": "/portfolio/static/media/otters.4549cb5b.JPG",
+    "static/media/pancake.15f4ae64.png": "/portfolio/static/media/pancake.15f4ae64.png",
+    "static/media/self.a74b813e.png": "/portfolio/static/media/self.a74b813e.png",
+    "static/media/snow_forest.d6de166c.png": "/portfolio/static/media/snow_forest.d6de166c.png",
+    "static/media/spiral_stairs.a1d1a921.JPG": "/portfolio/static/media/spiral_stairs.a1d1a921.JPG",
+    "static/media/sushi.8a9054ff.JPG": "/portfolio/static/media/sushi.8a9054ff.JPG",
+    "static/media/turtle.0d875546.JPG": "/portfolio/static/media/turtle.0d875546.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6f9d425.js",
+    "static/js/2.443a2c6f.chunk.js",
+    "static/css/main.bcb02473.chunk.css",
+    "static/js/main.e59f1b18.chunk.js"
+  ]
+}
